@@ -25,7 +25,7 @@ Practices](/articles/dockerfile_best-practices) for a tip-oriented guide.
 The [`docker build`](/reference/commandline/build/) command builds an image from
 a `Dockerfile` and a *context*. The build's context is the files at a specified
 location `PATH` or `URL`. The `PATH` is a directory on your local filesystem.
-The `URL` is a the location of a Git repository.
+The `URL` is the location of a Git repository.
 
 A context is processed recursively. So, a `PATH` includes any subdirectories and
 the `URL` includes the repository and its submodules. A simple build command
